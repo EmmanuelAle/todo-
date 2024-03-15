@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <script>
+
+            let qtdNumeros = prompt('Digite la cantidad de números para el cálculo del promedio:');
+            let soma = 0;
+            let contador = qtdNumeros;
+            
+            while(contador > 0){
+                let numero = parseInt(prompt('Digite el numero:'));
+                soma += numero;
+                contador = contador -1
+            
+            }
+            
+            let promedio = soma / qtdNumeros;
+            
+            console.log(promedio);
+            </script>
+        <body>
+
+        </body>
+    </head>
+</html>
